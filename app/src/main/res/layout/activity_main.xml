@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.example.digitclassifier.PaintView
+        android:id="@+id/paint_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@android:color/white" />
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Canvas" />
+
+    <Button
+        android:id="@+id/predict_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Predict" />
+
+    <TextView
+        android:id="@+id/prediction_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prediction: "
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
